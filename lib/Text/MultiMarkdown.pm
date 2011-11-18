@@ -388,7 +388,7 @@ sub _DoDefinitionLists {
 
 	my $term = qr{
 		$line_start
-		[^:\s][^\n]*\n
+		[^: ][^\n]*\n
 	}sx;
 
 	my $definition = qr{
